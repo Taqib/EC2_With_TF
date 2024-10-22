@@ -40,3 +40,7 @@ resource "aws_security_group" "ssh_access" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+output "web_server_public_ip" {
+  value = aws_instance.web_server.public_ip
+}
