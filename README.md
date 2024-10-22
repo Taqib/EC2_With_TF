@@ -66,3 +66,8 @@ With your Terraform configuration ready, proceed to initialize, plan, and apply 
 --terraform plan
 --terraform apply
 
+After the deployment, Terraform will output the public IP address of your EC2 instance.
+
+Conclusion
+You've successfully deployed an EC2 instance on AWS using Terraform. This lab covered configuring the AWS provider, creating an SSH key pair, defining a security group, deploying an EC2 instance, and connecting to it. This foundational setup is essential for any cloud-based infrastructure, and with Terraform, you can easily manage, update, and scale your infrastructure as needed.
+
